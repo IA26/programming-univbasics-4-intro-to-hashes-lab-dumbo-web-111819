@@ -15,7 +15,10 @@ def pioneer
 end
 
 def id_generator
-hash_four = Hash.new
+hash_four = {
+  hello: "Hey"
+}
+  return hello.object.id
 end
 
 def my_hash_creator(key, value)
