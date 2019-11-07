@@ -18,8 +18,9 @@ def id_generator
 hash_four = {
   hello: "Hey"
 }
-  return hash_four(:hello).object_id
+  return :hello.object_id
 end
+id_generator
 
 def my_hash_creator(key, value)
   hash_five = {
