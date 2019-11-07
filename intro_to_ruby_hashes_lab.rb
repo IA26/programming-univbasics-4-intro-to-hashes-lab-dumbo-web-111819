@@ -3,13 +3,15 @@ def new_hash
 end
 
 def my_hash
-  hash_two {
+  hash_two = {
     message: "Hello"
   }
 end
 
 def pioneer
-  # return a hash with a key of :name and a corresponding value of 'Grace Hopper'
+  hash_three = {
+    name: "Grace Hopper"
+  }
 end
 
 def id_generator
