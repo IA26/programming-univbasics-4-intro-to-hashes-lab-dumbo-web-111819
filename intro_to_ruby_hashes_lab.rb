@@ -4,7 +4,7 @@ end
 
 def my_hash
   hash_two {
-    message: 
+    message: "Hello"
   }
 end
 
