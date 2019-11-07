@@ -25,8 +25,8 @@ def my_hash_creator(key, value)
   hash_five = {
     :key => value
   }
-  return hash_five
 end
+
 
 def read_from_hash(hash, key)
   # return the correct value using the hash and key parameters
